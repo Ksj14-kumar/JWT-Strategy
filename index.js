@@ -13,6 +13,7 @@ const originsWhitelist = require("./whiteList-Origin")
 const { ErrorHandler } = require("./middleware/ErrorMiddleware")
 const bodyParser = require("body-parser")
 require("./middleware/DataBaseConnection") // conncted db
+const employ= require("./router/Employ")
 
 
 
@@ -39,6 +40,7 @@ app.use(cors({
 
 app.use("/api/v1", router)
 app.use("/api/v1/auth", Authrouter)
+app.use("/api/v1/employ",employ)
 console.log = require("./middleware/logger").log
 app.use(ErrorHandler) //catch error globally
 app.listen(port, (err) => {

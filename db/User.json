@@ -1,0 +1,33 @@
+[
+    {
+        "email": "sanju@gmail.com",
+        "password": "$2b$10$pdcdPwniVvBkCpuK.btWReyoQ/ws8fIOxwt1uYySDOYnxG70wpDFe",
+        "roles": {
+            "Editor": 1981,
+            "User": 2001
+        }
+    },
+    {
+        "email": "Andrew@gmail.com",
+        "password": "$2b$10$osu6uywjG8MlDOORWdmO0eshvr/ggqdi9DEz6yzUNY8/PKLO9UEY2",
+        "roles": {
+            "Admin": 5150
+        }
+    },
+    {
+        "email": "Dave@gmail.com",
+        "roles": {
+            "Editor": 1981,
+            "Admin": 5150,
+            "User": 2001
+        },
+        "password": "$2b$10$StjTM7dIW7IB2Z8Y8bGMUu4/.T2NrDInYUSdrYPn9pk9SEE19BTEC"
+    },
+    {
+        "email": "Jane@gmail.com",
+        "roles": {
+            "User": 2001
+        },
+        "password": "$2b$10$dRYvGGKNMxEL/sQeryTnYOCrM4LmT2Jo3L9eutw7ZkVqnj9F3eqeS"
+    }
+]
